@@ -1,5 +1,12 @@
 #/bin/bash
 #.netcore https://www.microsoft.com/net/download/linux
-sudo apt-get -y install gdb tree vsftpd gnuplot-x11 gcc okular vscode g++ gfortran java-gcj-compat gnuplot python python3 octave git openssh-server vim vim-gnome libopenmpi-dev openmpi-bin openmpi-doc python-pip python3-pip inkspace llvm clang bumblebee bumblebee-nvidia nvidia-smi
+sudo apt-get -y install gdb tree vsftpd gnuplot-x11 gcc okular vscode g++ gfortran java-gcj-compat gnuplot python python3 octave git openssh-server vim vim-gnome libopenmpi-dev openmpi-bin openmpi-doc python-pip aria2 python3-pip inkspace llvm clang bumblebee bumblebee-nvidia nvidia-smi
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi
+cd $HOME/Downloads
+aria2c https://download.microsoft.com/download/4/0/9/40920432-3302-47a8-b13c-bbc4848ad114/dotnet-sdk-2.1.302-linux-x64.tar.gz
+aria2c https://download.microsoft.com/download/1/f/7/1f7755c5-934d-4638-b89f-1f4ffa5afe89/dotnet-runtime-2.1.2-linux-x64.tar.gz
+sudo mkdir /usr/share/dotnet
+sudo tar zxvf dotnet-sdk-2.1.302-linux-x64.tar.gz -C /usr/share/dotnet
+sudo tar zxvf dotnet-runtime-2.1.2-linux-x64.tar.gz -C /usr/share/dotnet
+#export PATH

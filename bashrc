@@ -126,6 +126,12 @@ alias ..='cd ..'
 alias pdf='okular'
 alias gfo='gfortran'
 alias clang++='clang++ -std=c++11'
-alias nvcc++='nvcc -ccbin clang++'
+alias nv++='nvcc -ccbin clang++'
+alias su='sudo su'
+alias nvda='optirun'
 # PATH
-export PATH=$PATH:$HOME/dotnet
+export PATH=$PATH:/usr/share/dotnet
+export LIBRARY_PATH=/home/hessian/lib:$LIBRARY_PATH
+export C_INCLUDE_PATH=/home/hessian/lib/include
+export CPLUS_INCLUDE_PATH=/home/hessian/lib/include
+export LD_LIBRARY_PATH=/home/hessian/lib:$LD_LIBRARY_PATH
