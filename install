@@ -1,6 +1,6 @@
 #/bin/bash
 #.netcore https://www.microsoft.com/net/download/linux
-sudo apt-get -y install gdb tree vsftpd gnuplot-x11 gcc okular vscode g++ gfortran java-gcj-compat gnuplot python python3 octave git openssh-server vim vim-gnome libopenmpi-dev openmpi-bin openmpi-doc python-pip aria2 python3-pip inkspace llvm clang bumblebee bumblebee-nvidia nvidia-smi
+sudo apt-get -y install gdb tree vsftpd gnuplot-x11 gcc okular vscode g++ gfortran java-gcj-compat gnuplot python python3 octave git openssh-server vim vim-gnome libopenmpi-dev openmpi-bin openmpi-doc python-pip aria2 python3-pip inkspace llvm clang bumblebee bumblebee-nvidia nvidia-smi gitkraken gimp
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi mpi4py
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi mpi4py
 cd $HOME/Downloads
