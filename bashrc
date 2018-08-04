@@ -130,7 +130,7 @@ alias nv++='nvcc -ccbin clang++'
 alias su='sudo su'
 alias nvda='optirun'
 # PATH
-export PATH=$PATH:/usr/share/dotnet
+export PATH=$PATH
 export LIBRARY_PATH=/home/hessian/lib:$LIBRARY_PATH
 export C_INCLUDE_PATH=/home/hessian/lib/include
 export CPLUS_INCLUDE_PATH=/home/hessian/lib/include
