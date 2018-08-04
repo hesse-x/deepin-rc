@@ -10,3 +10,7 @@ sudo apt-get -y install gdb tree vsftpd gnuplot-x11 gcc okular vscode g++ gfortr
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi
 
+
+#ssh-key -t rsa -C "coiggahou@foxmail.com"
+#ssh -T git@github.com
+
