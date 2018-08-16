@@ -126,11 +126,18 @@ alias ..='cd ..'
 alias pdf='okular'
 alias gfo='gfortran'
 alias clang++='clang++ -std=c++11'
-alias nv++='nvcc -ccbin clang++'
+alias nv++='nvcc -ccbin clang++ -Wno-deprecated-gpu-targets'
 alias su='sudo su'
 alias nvda='optirun'
+alias jc='javac'
+alias sshstart='/etc/init.d/ssh start'
+alias sshstop='/etc/init.d/ssh stop'
+alias sshrestart='/etc/init.d/ssh restart'
+alias ftpstart='service vsftpd start'
+alias ftpstop='service vsftpd stop'
+alias ftprestart='service vsftpd restart'
 # PATH
-export PATH=$PATH
+export PATH=$PATH:/home/hessian/.bin
 export LIBRARY_PATH=/home/hessian/lib:$LIBRARY_PATH
 export C_INCLUDE_PATH=/home/hessian/lib/include
 export CPLUS_INCLUDE_PATH=/home/hessian/lib/include

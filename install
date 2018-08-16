@@ -6,7 +6,7 @@ sudo mv prod.list /etc/apt/sources.list.d/microsoft-prod.list
 sudo chown root:root /etc/apt/trusted.gpg.d/microsoft.asc.gpg
 sudo chown root:root /etc/apt/sources.list.d/microsoft-prod.list
 sudo apt-get update
-sudo apt-get -y install gdb tree vsftpd gnuplot-x11 gcc okular vscode g++ gfortran oracle-java8 openjdk-8-jre openjdk-8-jdk gnuplot python python3 octave git ssh vim vim-gnome mpich python-pip aria2 python3-pip inkspace llvm clang bumblebee bumblebee-nvidia nvidia-smi nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual-profiler dotnet-sdk-2.1 engauge-digitizer
+sudo apt-get -y install gdb tree vsftpd ftp gnuplot-x11 gcc okular vscode g++ gfortran oracle-java8 openjdk-8-jre openjdk-8-jdk gnuplot python python3 octave git ssh vim vim-gnome mpich python-pip aria2 python3-pip inkspace llvm clang bumblebee bumblebee-nvidia nvidia-smi nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual-profiler dotnet-sdk-2.1 engauge-digitizer flac lame ffmpeg shntool
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi
 

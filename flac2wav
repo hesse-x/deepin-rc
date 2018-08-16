@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ ! -n "$1" ] ;then
+	echo "this script can convert flac to wav,input filename without extension"
+else
+	flac -d $1.flac
+	
+fi

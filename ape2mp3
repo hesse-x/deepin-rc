@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ ! -n "$1" ] ;then
+	echo "this script can convert ape to mp3(320k),input filename without extension"
+else
+	ffmpeg -i $1.ape $1.flac
+	lame --preset insance $1.flac
+	rm $1.flac -f
+fi

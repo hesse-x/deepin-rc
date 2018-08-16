@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ ! -n "$1" ] ;then
+	echo "this script can convert flac to mp3(320k),input filename without extension"
+else
+	lame --preset insane $1.flac
+	
+fi

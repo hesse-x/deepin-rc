@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ ! -n "$1" ] ;then
+	echo "this script can convert ape to flac,input filename without extension"
+else
+	ffmpeg -i $1.ape $1.flac
+fi
