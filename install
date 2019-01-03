@@ -6,7 +6,7 @@ sudo mv prod.list /etc/apt/sources.list.d/microsoft-prod.list
 sudo chown root:root /etc/apt/trusted.gpg.d/microsoft.asc.gpg
 sudo chown root:root /etc/apt/sources.list.d/microsoft-prod.list
 sudo apt-get update
-sudo apt-get -y install gdb tree vsftpd ftp gnuplot-x11 gcc okular vscode g++ gfortran openjdk-8-jdk gnuplot python python3 octave git ssh vim vim-gnome mpich python-pip aria2 python3-pip llvm clang nvidia-smi nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual-profiler engauge-digitizer flac lame ffmpeg shntool golang klatexformula gnash inkscape dotnet-sdk-2.1
+sudo apt-get -y install meld gdb tree vsftpd ftp gnuplot-x11 gcc okular vscode g++ gfortran gnuplot python python3 octave git ssh vim mpich python-pip aria2 python3-pip llvm clang clang-4.0 nvidia-smi nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual-profiler engauge-digitizer flac lame ffmpeg shntool golang klatexformula gnash inkscape dotnet-sdk-2.1 gimp deepin-nvidia-prime
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi tensorflow pandas
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi tensorflow pandas
 
