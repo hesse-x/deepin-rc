@@ -13,6 +13,6 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi tensorflow pandas pyqt
 
 #starUML gimp 微信 TIM 百度网盘 迅雷
-#ssh-key -t rsa -C "coiggahou@foxmail.com"
+#ssh-key -t rsa -C "xxx@xxx.com"
 #ssh -T git@github.com
 
