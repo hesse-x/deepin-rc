@@ -7,7 +7,7 @@ sudo chown root:root /etc/apt/trusted.gpg.d/microsoft.asc.gpg
 sudo chown root:root /etc/apt/sources.list.d/microsoft-prod.list
 
 sudo apt-get update
-sudo apt-get -y install meld gdb tree vsftpd ftp gnuplot-x11 gcc okular vscode g++ gfortran gnuplot python python3 octave git ssh vim mpich python-pip aria2 python3-pip llvm clang clang-4.0 nvidia-smi nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual-profiler engauge-digitizer flac lame ffmpeg shntool golang klatexformula gnash inkscape gimp deepin-nvidia-prime ngrok-client ngrok-server
+sudo apt-get -y install meld gdb tree vsftpd ftp gnuplot-x11 gcc okular vscode g++ gfortran gnuplot python python3 octave git ssh vim mpich python-pip aria2 python3-pip llvm clang clang-4.0 nvidia-smi nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight nvidia-visual-profiler engauge-digitizer flac lame ffmpeg shntool golang gnash inkscape gimp deepin-nvidia-prime
 sudo apt-get install dotnet-sdk-2.2
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi tensorflow pandas
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ sympy vtk scipy scikit-learn numpy matplotlib dataframe mayavi tensorflow pandas pyqt
